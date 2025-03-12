@@ -1,2 +1,2 @@
 #!/bin/bash
-vim 23-empty_casks
+find . -empty -printf "%f\n"
